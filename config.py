@@ -1,5 +1,5 @@
 OPENNI_CONFIG = {
-    'OPENNI2_REDIST_DIR': 'OpenNI-Windows-x64-2.3\Redist'
+    'OPENNI2_REDIST_DIR': '../OpenNI-Windows-x64-2.3/Redist'
 }
 
 CALIBRATION_CONFIG = {
@@ -16,12 +16,12 @@ CAMERA_CONFIG = {
 }
 
 PLY_CONFIG = {
-    'RGB_LOAD_PATH': 'data/datasets/workpiece/rgb',
-    'DEPTH_LOAD_PATH': 'data/datasets/workpiece/depth',
-    'PLY_SAVE_PATH': 'data/datasets/workpiece/ply',
+    'RGB_LOAD_PATH': '../DATA/rgb',
+    'DEPTH_LOAD_PATH': '../DATA/depth',
+    'PLY_SAVE_PATH': '../DATA/ply',
 }
 
 RGBD_CAPTURE_CONFIG = {
-    'RGB_SAVE_PATH': 'data/datasets/workpiece/rgb',
-    'DEPTH_SAVE_PATH': 'data/datasets/workpiece/depth'
+    'RGB_SAVE_PATH': '../DATA/rgb',
+    'DEPTH_SAVE_PATH': '../DATA/depth'
 }

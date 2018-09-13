@@ -16,9 +16,9 @@ CAMERA_CONFIG = {
 }
 
 PLY_CONFIG = {
-    'RGB_LOAD_PATH': '../DATA/rgb',
-    'DEPTH_LOAD_PATH': '../DATA/depth',
-    'PLY_SAVE_PATH': '../DATA/ply',
+    'RGB_LOAD_PATH': '../DATA/new/RGB',
+    'DEPTH_LOAD_PATH': '../DATA/new/D',
+    'PLY_SAVE_PATH': '../DATA/new/ply',
 }
 
 RGBD_CAPTURE_CONFIG = {

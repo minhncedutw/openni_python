@@ -80,7 +80,7 @@ end_header
 if __name__ == '__main__':
     import sys
     import os
-    ROOT_DIR = os.path.join(os.path.dirname(__file__), '../')
+    ROOT_DIR = os.path.dirname(__file__)
     sys.path.append(ROOT_DIR)
 
     from config import PLY_CONFIG, CAMERA_CONFIG

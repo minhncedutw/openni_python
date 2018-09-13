@@ -1,5 +1,5 @@
 OPENNI_CONFIG = {
-    'OPENNI2_REDIST_DIR': 'D:\TaipeiTecFile\RBPprioject\camara\OpenNI_2.3.0.43\Windows\OpenNI-Windows-x64-2.3\OpenNI-Windows-x64-2.3\Redist'
+    'OPENNI2_REDIST_DIR': 'OpenNI-Windows-x64-2.3\Redist'
 }
 
 CALIBRATION_CONFIG = {
@@ -22,6 +22,6 @@ PLY_CONFIG = {
 }
 
 RGBD_CAPTURE_CONFIG = {
-    'RGB_SAVE_PATH': 'D:\TaipeiTecFile\RBPprioject\RBP\Code',
-    'DEPTH_SAVE_PATH': 'D:\TaipeiTecFile\RBPprioject\RBP\Code'
+    'RGB_SAVE_PATH': 'data/datasets/workpiece/rgb',
+    'DEPTH_SAVE_PATH': 'data/datasets/workpiece/depth'
 }

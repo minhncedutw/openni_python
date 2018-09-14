@@ -54,8 +54,8 @@ dev = openni2.Device.open_any()
 rgb_stream = dev.create_color_stream()
 depth_stream = dev.create_depth_stream()
 
-w = 640
-h = 480
+w = 320
+h = 240
 fps = 30
 
 rgb_stream.set_video_mode(c_api.OniVideoMode(pixelFormat=c_api.OniPixelFormat.ONI_PIXEL_FORMAT_RGB888, resolutionX=w, resolutionY=h, fps=fps))
